@@ -1,0 +1,29 @@
+$myColor: blue;
+.myButton {
+    color: aqua;
+    background-color: rebeccapurple;
+}
+
+@mixin my {
+    background-color: $myColor;
+    font-size: 1.2em;
+    display: flex;
+}
+
+* {
+    margin: 0;
+}
+
+.myDiv {
+    @include my;
+    // background-color: chartreuse;
+    &:hover {
+        background-color: darkgoldenrod;
+    }
+    p {
+        background-color: red;
+        &:hover {
+            background-color: brown;
+        }
+    }
+}

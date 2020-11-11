@@ -1,0 +1,29 @@
+.myButton {
+  color: aqua;
+  background-color: rebeccapurple;
+}
+
+* {
+  margin: 0;
+}
+
+.myDiv {
+  background-color: blue;
+  font-size: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.myDiv:hover {
+  background-color: darkgoldenrod;
+}
+
+.myDiv p {
+  background-color: red;
+}
+
+.myDiv p:hover {
+  background-color: brown;
+}
+/*# sourceMappingURL=index.module.css.map */
